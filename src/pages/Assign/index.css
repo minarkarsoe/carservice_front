@@ -1,0 +1,10 @@
+.ant-table-thead > tr > th {
+    color: white;
+    font-weight: 300;
+    text-align: left;
+    background: #4672bb;
+    height: 15px;
+}
+button{
+    background-color: #4672bb;
+}

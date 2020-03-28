@@ -1,0 +1,68 @@
+ async getData() {
+        const response = await api.get(`schedule/${this.state.id}`);
+        if (response && response.status == 200) {
+            let data = response.data.data;
+            const complain = await api.get(`complain/${data.comp_id}`);
+            if (complain && complain.status == 200) {
+                this.setState({ schedule: data, complain: complain.data.data , loading: false})                
+            }
+        }
+    }
+    
+    render() {
+        const { complain, schedule, loading } = this.state;
+        if(loading) return (<div></div>);
+        
+        const dataSource = this.props.complain;
+
+        let dataService = this.props.employee;
+        dataService.map(d => {
+            let uuid = uuidv4();
+            d.key = uuid;
+        })
+        
+        const { workinghr, mod_no, complain_no, dep_name,
+            fup_no,
+            wyear,
+            description,
+            customer_phno,
+            customer_name,
+            name,
+            distance,
+            job_title,
+            date,
+            amount,
+            complain_job_title,
+            job_description, location } = complain;
+
+        const columns = [
+            {
+                title: 'Model No',
+                dataIndex: 'mod_no',
+               
+
+            },
+            {
+                title: 'FUP No',
+                dataIndex: 'fup_no',
+            
+            },
+            {
+                title: 'Complain No',
+                dataIndex: 'complain_no',
+               
+
+            },
+            {
+                title: 'Date',
+                dataIndex: 'date',
+               
+
+            },
+            {
+                title: 'Status',
+                dataIndex: 'complain_status',
+               
+
+            },
+        ];

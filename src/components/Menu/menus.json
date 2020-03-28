@@ -1,0 +1,120 @@
+{
+    "menu":[
+        {
+            "key":"1",
+            "name": "Dashboard",
+            "icon": "",
+            "path": "/"
+        },
+        {
+            "key":"2",
+            "name": "Configuration",
+            "icon": "",
+            "path": "/",
+            "children" : [
+
+                {
+                    "key":"1",
+                    "name": "Employee",
+                    "icon": " ",
+                    "path": "/employee"
+                },
+                {
+                    "key":"2",
+                    "name": "Position",
+                    "icon": " ",
+                    "path": "/positions"
+                },
+                {
+                    "key":"3",
+                    "name": "Department",
+                    "icon": " ",
+                    "path": "/departments"
+                },
+
+                {
+                    "key":"4",
+                    "name": "Model",
+                    "icon": " ",
+                    "path": "/models"
+                }
+
+            ]
+        },
+        {
+            "key":"3",
+            "name": "Machine",
+            "icon": " ",
+            "path": "/machine"
+        },
+        {
+            "key":"4",
+            "name": "Complain",
+            "icon": " ",
+            "path": "/complains"
+        },
+        {
+            "key":"5",
+            "name": "Assign to Schedule",
+                    "icon": "",
+                    "path": "/assign"
+        },
+        {
+            "key":"6",
+            "name": "Schedule",
+            "icon": " ",
+            "path": "/schedule"
+        },
+        {
+            "key":"7",
+            "name": "User Management",
+            "icon": "",
+            "path": "/",
+            "children" : [
+
+                {
+                    "key":"1",
+                    "name": "Account Create",
+                    "icon": " ",
+                    "path": "/user"
+                },
+                {
+                    "key":"2",
+                    "name": "Module",
+                    "icon": " ",
+                    "path": "/module"
+                },
+                {
+                    "key":"3",
+                    "name": "Role",
+                    "icon": " ",
+                    "path": "/role"
+                },   {
+                    "key":"4",
+                    "name": "User For Role ",
+                    "icon": " ",
+                    "path": "/userrole"
+                }
+                ]},
+                {
+                    "key":"8",
+                    "name": "Service Report",
+                    "icon": " ",
+                    "path": "/servicereport"
+                },
+                {
+                    "key":"9",
+                    "name": "Customer Payment Lists",
+                    "icon": " ",
+                    "path": "/Customer Payment Lists"
+                },
+                {
+                    "key":"10",
+                    "name": "Online Customer Complain",
+                    "icon": " ",
+                    "path": "/onlinecomplain"
+                }
+      
+
+    ]
+}

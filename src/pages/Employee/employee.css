@@ -1,0 +1,35 @@
+.ant-table-thead > tr > th {
+	color: rgba(0, 0, 0, 0.85);
+	font-weight: 500;
+	text-align: left;
+	background: #4672bb;
+}
+
+span.a3 {
+	font-size: 50px;
+}
+
+/* Employee Css */
+.EmployeeContainer {
+	padding: 20px;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #fff;
+	border-radius: 12px;
+	border-color: #dfdfdf;
+}
+
+.EmployeeHeaderSpan {
+	background-color: #dfdfdf;
+	display: inline-block;
+	padding: 0.3em 1em;
+	border-radius: 3px;
+}
+
+.EmployeeFormDivider {
+	border-style: hidden;
+	padding: 8px;
+	margin-left: 30px;
+	margin-bottom: 3rem;
+}

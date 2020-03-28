@@ -1,0 +1,39 @@
+
+{
+    "test":[
+        {
+            "key":"1",
+            "name": "Dashboard",
+            "icon": "",
+            "path": "/"
+        },
+
+        {
+            "key":"2",
+            "name": "Profile",
+            
+            "path": "/profile"
+            
+        },
+        {
+            "key":"3",
+            "name": "Job",
+            
+            "path": "/job"
+        },
+
+        {
+            "key":"4",
+            "name": "Daily Report",
+            
+            "path": "/dailyreport"
+        },
+        {
+            "key":"5",
+            "name": "Terms and Condition",
+            
+            "path": "/tnd"
+        }
+        
+    ]
+}

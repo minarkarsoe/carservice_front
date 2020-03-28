@@ -1,0 +1,35 @@
+label {
+	color: blue;
+}
+span.a1 {
+	font-size: 20px;
+}
+span.a2 {
+	font: blue;
+}
+
+/* Complain View */
+.ComplainContainer {
+	padding: 20px;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #fff;
+	border-radius: 12px;
+	border-color: #dfdfdf;
+}
+
+.ComplainHeaderSpan {
+	background-color: #dfdfdf;
+	display: inline-block;
+	padding: 0.3em 1em;
+	border-radius: 3px;
+}
+
+.ComplainContainer .ant-form-item label {
+	background-color: #dfdfdf;
+	display: inline-block;
+	padding: 0.3em 1em;
+	border-radius: 3px;
+	line-height: normal;
+}

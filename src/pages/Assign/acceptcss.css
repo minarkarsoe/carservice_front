@@ -1,0 +1,24 @@
+label {
+	color: blue;
+}
+
+span.c1 {
+	font-size: 20px;
+}
+
+.AssignAcceptSheduleContainer {
+	padding: 20px;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #fff;
+	border-radius: 12px;
+	border-color: #dfdfdf;
+}
+
+.AssignAcceptSheduleHeaderSpan {
+	background-color: #dfdfdf;
+	display: inline-block;
+	padding: 0.3em 1em;
+	border-radius: 3px;
+}

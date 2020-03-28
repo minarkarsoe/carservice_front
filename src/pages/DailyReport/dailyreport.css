@@ -1,0 +1,21 @@
+.ant-table-thead > tr > th {
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    background: #4672bb;
+}
+
+.ant-tabs {
+    margin-left: 20% !important
+}
+
+.ant-tabs-tab {
+    background: #222222;
+    color: #ffffff;
+}
+span.a2{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(39,37,37);
+
+}

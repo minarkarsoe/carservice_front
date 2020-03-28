@@ -1,0 +1,124 @@
+
+export const SIGN_IN = 'SIGN_IN';
+export const SIGN_OUT = 'SIGN_OUT';
+export const SIGN_UP = 'SIGN_UP';
+export const CURRENT_USER = 'CURRENT_USER';
+export const CREATE_STREAM = 'CREATE_STREAM';
+export const FETCH_STREAMS = 'FETCH_STREAMS';
+export const FETCH_STREAM = 'FETCH_STREAM';
+export const DELETE_STREAM = 'DELETE_STREAM';
+export const EDIT_STREAM = 'EDIT_STREAM';
+export const LOCALE_SET = 'LOCALE_SET';
+
+//Loading
+export const LOADING = 'LOADING'
+
+
+//Position
+
+export const CREATE_POSITION = 'CREATE_POSITION';
+export const FETCH_POSITIONS = 'FETCH_POSITIONS';
+export const FETCH_POSITION = 'FETCH_POSITION';
+export const DELETE_POSITION = 'DELETE_POSITION';
+export const EDIT_POSITION = 'EDIT_POSITION';
+//@Department
+export const CREATE_DEPARTMENT = 'CREATE_DEPARTMENT';
+export const FETCH_DEPARTMENTS = 'FETCH_DEPARTMENTS';
+export const FETCH_DEPARTMENT = 'FETCH_DEPARTMENT';
+export const DELETE_DEPARTMENT = 'DELETE_DEPARTMENT';
+export const EDIT_DEPARTMENT = 'EDIT_DEPARTMENT';
+
+export const CREATE_MODEL = 'CREATE_MODEL';
+export const FETCH_MODELS = 'FETCH_MODELS';
+export const FETCH_MODEL = 'FETCH_MODEL';
+export const DELETE_MODEL = 'DELETE_MODEL';
+export const EDIT_MODEL = 'EDIT_MODEL';
+
+export const CREATE_MODULE = 'CREATE_MODULE ';
+export const FETCH_MODULES  = 'FETCH_MODULES ';
+export const FETCH_MODULE = 'FETCH_MODULE';
+export const DELETE_MODULE = 'DELETE_MODULE';
+export const EDIT_MODULE = 'EDIT_MODULE';
+
+//@Machine
+export const CREATE_MACHINE = 'CREATE_MACHINE';
+export const FETCH_MACHINE = 'FETCH_MACHINE';
+export const FETCH_MACHINES = 'FETCH_MACHINES';
+export const DELETE_MACHINE = 'DELETE_MACHINE';
+export const EDIT_MACHINE = 'EDIT_MACHINE';
+//EMP
+
+export const CREATE_EMPLOYEE = 'CREATE_EMPLOYEE';
+export const FETCH_EMPLOYEES = 'FETCH_EMPLOYEES';
+export const FETCH_EMPLOYEE = 'FETCH_EMPLOYEE';
+export const DELETE_EMPLOYEE = 'DELETE_EMPLOYEE';
+export const EDIT_EMPLOYEE = 'EDIT_EMPLOYEE';
+
+// <<<<<<< HEAD
+//Complain
+
+export const CREATE_COMPLAIN = 'CREATE_ COMPLAIN';
+export const FETCH_COMPLAINS = 'FETCH_COMPLAINS';
+export const FETCH_COMPLAIN = 'FETCH_COMPLAIN';
+export const DELETE_COMPLAIN = 'DELETE_COMPLAIN';
+export const EDIT_COMPLAIN = 'EDIT_COMPLAIN';
+
+export const CREATE_CPL = 'CREATE_CPL';
+export const FETCH_CPLS = 'FETCH_CPLS';
+export const FETCH_CPL = 'FETCH_CPL';
+export const DELETE_CPL = 'DELETE_CPL';
+export const EDIT_CPL = 'EDIT_CPL';
+// =======
+
+// >>>>>>> 720cca248471c6c8c4fdb426ee426613fcf1a159
+// Assign
+
+export const CREATE_ASSIGN = 'CREATE_ASSIGN';
+export const FETCH_ASSIGNS = 'FETCH_ASSIGNS';
+export const FETCH_ASSIGN = 'FETCH_ASSIGN';
+export const DELETE_ASSIGN= 'DELETE_ASSIGN';
+export const EDIT_ASSIGN= 'EDIT_ASSIGN';
+
+export const FETCH_SERVICES = 'FETCH_SERVICES';
+
+export const CREATE_SCHEDULE = 'CREATE_SCHEDULE';
+export const FETCH_SCHEDULES = 'FETCH_SCHEDULES';
+export const FETCH_SCHEDULE = 'FETCH_SCHEDULE';
+export const DELETE_SCHEDULE = 'DELETE_SCHEDULE';
+export const EDIT_SCHEDULE = 'EDIT_SCHEDULE';
+
+export const CREATE_VIEW = 'CREATE_VIEW';
+export const FETCH_VIEWS = 'FETCH_VIEWS';
+export const FETCH_VIEW = 'FETCH_VIEW';
+export const DELETE_VIEW = 'DELETE_VIEW';
+export const EDIT_VIEW = 'EDIT_VIEW';
+
+export const CREATE_DAILYREPORT = 'CREATE_DAILYREPORT ';
+export const FETCH_DAILYREPORTS  = 'FETCH_DAILYREPORTS ';
+export const FETCH_DAILYREPORT = 'FETCH_DAILYREPORT';
+export const DELETE_DAILYREPORT = 'DELETE_DAILYREPORT';
+export const EDIT_DAILYREPORT = 'EDIT_DAILYREPORT';
+
+export const CREATE_USER = 'CREATE_USER ';
+export const FETCH_USERS  = 'FETCH_USERS ';
+export const FETCH_USER = 'FETCH_USER';
+export const DELETE_USER = 'DELETE_USER';
+export const EDIT_USER = 'EDIT_USER';
+
+export const CREATE_ROLE = 'CREATE_ROLE ';
+export const FETCH_ROLES  = 'FETCH_ROLES ';
+export const FETCH_ROLE = 'FETCH_ROLE';
+export const DELETE_ROLE = 'DELETE_ROLE';
+export const EDIT_ROLE = 'EDIT_ROLE';
+
+export const CREATE_USERROLE = 'CREATE_USERROLE ';
+export const FETCH_USERROLES  = 'FETCH_USERROLES ';
+export const FETCH_USERROLE = 'FETCH_USERROLE';
+export const DELETE_USERROLE = 'DELETE_USERROLE';
+export const EDIT_USERROLE = 'EDIT_USERROLE';
+
+export const CREATE_ONLINECOMPLAIN = 'CREATE_ONLINECOMPLAIN ';
+export const FETCH_ONLINECOMPLAINS  = 'FETCH_ONLINECOMPLAINS ';
+export const FETCH_ONLINECOMPLAIN = 'FETCH_ONLINECOMPLAIN';
+export const DELETE_ONLINECOMPLAIN = 'DELETE_ONLINECOMPLAIN';
+export const EDIT_ONLINECOMPLAIN = 'EDIT_ONLINECOMPLAIN';

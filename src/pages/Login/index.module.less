@@ -1,0 +1,90 @@
+@import '../../themes/var.less';
+
+.form {
+  position: absolute;
+  border-radius: 5px;
+  top: 40%;
+  left: 50%;
+  margin: -160px 0 0 -160px;
+  width: 300px;
+  height: 420px;
+  padding: 36px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+
+  @media only screen and (min-width: 420px) {
+    width: 400px;
+    height: 420px;
+  }
+
+  button {
+    width: 100%; 
+  }
+
+
+  p {
+    color: rgb(204, 204, 204);
+    text-align: center;
+    margin-top: 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.textdes {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    vertical-align: text-bottom;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+  }
+
+}
+
+.logo {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100px;
+    margin-right: 8px;
+    .text-gradient();
+  }
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.create{
+  float: right;
+}
+
+
+// .desc {
+//   font-size: @font-size-base;
+//   color: @text-color-secondary;
+//   // margin-top: 12px;
+//   // margin-bottom: 20px;
+//   margin: auto;
+// }

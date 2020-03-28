@@ -1,0 +1,31 @@
+.ProfileContainer {
+	padding: 20px;
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #fff;
+	border-radius: 12px;
+	border-color: #dfdfdf;
+}
+
+.ProfileHeaderSpan {
+	background-color: #dfdfdf;
+	display: inline-block;
+	padding: 0.3em 1em;
+	border-radius: 3px;
+}
+
+.ProfileFormDivider {
+	border-style: hidden;
+	padding: 8px;
+	margin-left: 30px;
+	margin-bottom: 3rem;
+}
+
+.ProfileContainer .ant-form-item label {
+	background-color: #dfdfdf;
+	display: inline-block;
+	padding: 0.3em 1em;
+	border-radius: 3px;
+	line-height: normal;
+}
